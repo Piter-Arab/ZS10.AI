@@ -25,7 +25,7 @@ export default function Navbar() {
             </svg>
           </Menu.Button>
         </div>
-        <a href='/' className="font-mono text-2xl w-1/2">ZS10.AI</a>
+        <a href='/' className="font-mono text-2xl w-1/2 text-white">ZS10.AI</a>
       </div>
       <Transition
         as={Fragment}

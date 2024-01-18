@@ -14,7 +14,7 @@ export default function Footer() {
         <div className="w-full pb-8 pt-16 sm:pt-24 lg:pt-32">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <div className="space-y-8 w-full lg:col-span-2">
-              <Link href='/' className="text-8xl font-mono">ZS10-AI</Link>
+              <Link href='/' className="text-8xl font-mono text-white">ZS10-AI</Link>
               <p className="text-sm leading-6 text-gray-300">
                 Platforma AI dostępna dla każdego.
               </p>
