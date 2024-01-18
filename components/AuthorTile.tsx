@@ -2,7 +2,7 @@ import { AuthorTileProps } from "@/types/AuthorTileProps";
 
 export default function AuthorTile({ name, imgUrl, redirectUrl }: AuthorTileProps) {
   return (
-    <a href={`${redirectUrl}`} className="flex flex-col justify-center items-center group hover:scale-95 transition-all cursor-pointer">
+    <a href={`${redirectUrl}`} className="flex text-white flex-col justify-center items-center group hover:scale-95 transition-all cursor-pointer">
       <img
         src={`/${imgUrl
           ? imgUrl
