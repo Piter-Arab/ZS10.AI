@@ -7,13 +7,19 @@ import Sidebar from '../Sidebar'
 import SidebarLink from '../SidebarLink'
 import { MenuItems } from '@/constants/MenuItems'
 
+import CodeBracketIcon from '../icons/CodeBracketIcon';
+import CpuChipIcon from '../icons/CpuChipIcon';
+import HomeIcon from '../icons/HomeIcon';
+import InfoCircleIcon from '../icons/InfoCircleIcon';
+import UserGroupIcon from '../icons/UserGroupIcon';
+
 export default function Navbar() {
   return (
     <Menu>
-      <div className="w-full flex justify-center items-center h-28 bg-sky-300 dark:bg-sky-800">
+      <div className="w-full flex justify-center items-center h-20 bg-gray-900">
         <div className="w-1/2">
           <Menu.Button>
-            <svg className='size-12 ml-8' aria-hidden="true" fill="none" strokeWidth={1.5} stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg className='size-9 text-gray-400 hover:text-white transition-all ml-8' aria-hidden="true" fill="none" strokeWidth={1.5} stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </Menu.Button>
@@ -31,11 +37,31 @@ export default function Navbar() {
       >
         <Menu.Items>
           <Sidebar>
-            {MenuItems.map(item => (
-              <Menu.Item>
-                <SidebarLink href={item.href}>{item.title}</SidebarLink>
-              </Menu.Item>
-            ))}
+            {MenuItems.map(item => {
+              var icon: JSX.Element | null = null;
+              switch (item.icon) {
+                case 'HomeIcon':
+                  icon = <HomeIcon />;
+                  break;
+                case 'CodeBracketIcon':
+                  icon = <CodeBracketIcon />;
+                  break;
+                case 'CpuChipIcon':
+                  icon = <CpuChipIcon />;
+                  break;
+                case 'InfoCircleIcon':
+                  icon = <InfoCircleIcon />;
+                  break;
+                case 'UserGroupIcon':
+                  icon = <UserGroupIcon />;
+                  break;
+              }
+              return (
+                <Menu.Item key={item.title}>
+                  <SidebarLink href={item.href}>{icon}{item.title}</SidebarLink>
+                </Menu.Item>
+              )
+            })}
           </Sidebar>
         </Menu.Items>
       </Transition>

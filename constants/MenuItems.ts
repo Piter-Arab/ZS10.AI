@@ -1,26 +1,32 @@
 export const MenuItems = [
   {
     title: 'Wstęp',
-    href: 'wstep'
+    href: 'wstep',
+    icon: 'HomeIcon'
   },
   {
     title: 'Chat-GPT',
-    href: '/'
+    href: '/',
+    icon: 'CodeBracketIcon'
   },
   {
     title: 'ZS10-AI',
-    href: '/'
+    href: '/',
+    icon: 'CodeBracketIcon'
   },
   {
     title: 'Cluster-AI',
-    href: '/'
+    href: '/',
+    icon: 'CpuChipIcon'
   },
   {
     title: 'Informacje',
-    href: '/'
+    href: '/',
+    icon: 'InfoCircleIcon'
   },
   {
     title: 'Autorzy',
-    href: 'autorzy'
+    href: 'autorzy',
+    icon: 'UserGroupIcon'
   },
 ]
