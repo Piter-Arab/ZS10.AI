@@ -2,31 +2,37 @@ export const MenuItems = [
   {
     title: 'Wstęp',
     href: 'wstep',
-    icon: 'HomeIcon'
+    icon: 'HomeIcon',
+    titleCont: ''
   },
   {
     title: 'Chat-GPT',
     href: '/',
-    icon: 'CodeBracketIcon'
+    icon: 'YellowExclamationTriangleIcon',
+    titleCont: 'Feature Not Avalible'
   },
   {
     title: 'ZS10-AI',
     href: '/',
-    icon: 'CodeBracketIcon'
+    icon: 'YellowExclamationTriangleIcon',
+    titleCont: 'Feature Not Avalible'
   },
   {
     title: 'Cluster-AI',
     href: '/',
-    icon: 'CpuChipIcon'
+    icon: 'YellowExclamationTriangleIcon',
+    titleCont: 'Feature Not Avalible'
   },
   {
     title: 'Informacje',
     href: '/',
-    icon: 'InfoCircleIcon'
+    icon: 'InfoCircleIcon',
+    titleCont: ''
   },
   {
     title: 'Autorzy',
     href: 'autorzy',
-    icon: 'UserGroupIcon'
+    icon: 'UserGroupIcon',
+    titleCont: ''
   },
 ]

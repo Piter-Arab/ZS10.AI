@@ -1,6 +1,7 @@
 import { ReactNode } from "react"
 
 export type SidebarLinkProps = {
-  children?: ReactNode;
-  href?: String;
+  children: ReactNode;
+  href?: string;
+  titleCont?: string;
 }

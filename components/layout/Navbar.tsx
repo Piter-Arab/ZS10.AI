@@ -12,6 +12,7 @@ import CpuChipIcon from '../icons/CpuChipIcon';
 import HomeIcon from '../icons/HomeIcon';
 import InfoCircleIcon from '../icons/InfoCircleIcon';
 import UserGroupIcon from '../icons/UserGroupIcon';
+import { YellowExclamationTriangleIcon } from '../icons/YellowExclamationTriangleIcon';
 
 export default function Navbar() {
   return (
@@ -55,10 +56,19 @@ export default function Navbar() {
                 case 'UserGroupIcon':
                   icon = <UserGroupIcon />;
                   break;
+                case 'YellowExclamationTriangleIcon':
+                  icon = <YellowExclamationTriangleIcon />;
+                  break;
               }
               return (
                 <Menu.Item key={item.title}>
-                  <SidebarLink href={item.href}>{icon}{item.title}</SidebarLink>
+                  <SidebarLink
+                    href={item.href}
+                    titleCont={item.titleCont}
+                  >
+                    {icon}
+                    {item.title}
+                  </SidebarLink>
                 </Menu.Item>
               )
             })}
