@@ -25,7 +25,7 @@ export const MenuItems = [
   },
   {
     title: 'Informacje',
-    href: '/',
+    href: 'informacje',
     icon: 'InfoCircleIcon',
     titleCont: ''
   },
