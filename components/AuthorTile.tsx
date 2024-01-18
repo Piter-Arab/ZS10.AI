@@ -11,7 +11,7 @@ export default function AuthorTile({ name, imgUrl, redirectUrl }: AuthorTileProp
         alt="Profile Picture"
         className="size-48 object-cover rounded-xl group-hover:brightness-75 transition-all"
       />
-      <p className="font-mono w-10/12 rounded-b-xl text-center bg-sky-400 dark:bg-sky-800">{name}</p>
+      <p className="font-mono w-10/12 rounded-b-xl text-center bg-gray-800">{name}</p>
     </a>
   )
 }
