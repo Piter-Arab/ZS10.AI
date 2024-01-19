@@ -13,9 +13,9 @@ export const MenuItems = [
   },
   {
     title: 'ZS10-AI',
-    href: '/',
-    icon: 'YellowExclamationTriangleIcon',
-    titleCont: 'Feature Not Avalible'
+    href: 'zs10-ai',
+    icon: 'CodeBracketIcon',
+    titleCont: ''
   },
   {
     title: 'Cluster-AI',
