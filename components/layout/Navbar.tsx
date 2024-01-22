@@ -1,6 +1,6 @@
 'use client';
 
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import { Menu, Transition } from '@headlessui/react'
 
 import Sidebar from '../Sidebar'
@@ -15,6 +15,9 @@ import UserGroupIcon from '../icons/UserGroupIcon';
 import { YellowExclamationTriangleIcon } from '../icons/YellowExclamationTriangleIcon';
 
 export default function Navbar() {
+  const [isActiveLink, setIsActiveLink] = useState('');
+
+
   return (
     <Menu>
       <div className="w-full flex justify-center items-center h-20 bg-gray-900">
@@ -25,7 +28,7 @@ export default function Navbar() {
             </svg>
           </Menu.Button>
         </div>
-        <a href='/' className="font-mono text-2xl w-1/2 text-white">ZS10.AI</a>
+        <a href='/' className=" font-mono text-2xl w-1/2 text-white">ZS10.AI</a>
       </div>
       <Transition
         as={Fragment}
@@ -40,6 +43,7 @@ export default function Navbar() {
           <Sidebar>
             {MenuItems.map(item => {
               var icon: JSX.Element | null = null;
+
               switch (item.icon) {
                 case 'HomeIcon':
                   icon = <HomeIcon />;
@@ -62,19 +66,30 @@ export default function Navbar() {
               }
               return (
                 <Menu.Item key={item.title}>
-                  <SidebarLink
-                    href={item.href}
-                    titleCont={item.titleCont}
-                  >
-                    {icon}
-                    {item.title}
-                  </SidebarLink>
+                  {({ close }) => (
+                    <SidebarLink
+                      href={item.href}
+                      titleCont={item.titleCont}
+                      onClick={() => {
+                        close;
+                        setIsActiveLink(item.href)
+                      }}
+                      className={isActiveLink == item.href
+                        ? 'bg-gray-800 w-full h-min group flex justify-between rounded-md p-2 text-gray-400 hover:text-white  transition-all'
+                        : 'hover:bg-gray-800 w-full h-min group flex justify-between rounded-md p-2 text-gray-400 hover:text-white  transition-all'
+                      }
+                    >
+                      {icon}
+                      {item.title}
+                    </SidebarLink>
+                  )
+                  }
                 </Menu.Item>
               )
             })}
           </Sidebar>
         </Menu.Items>
       </Transition>
-    </Menu>
+    </Menu >
   )
 }

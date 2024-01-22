@@ -2,9 +2,9 @@ import { SidebarLinkProps } from "@/types/SidebarLinkProps";
 import Link from "next/link";
 
 
-export default function SidebarLink({ children, href, titleCont }: SidebarLinkProps) {
+export default function SidebarLink({ children, href, titleCont, onClick, className }: SidebarLinkProps) {
   return (
-    <Link title={titleCont} href={`/${href}`} className="w-full h-min group flex justify-between rounded-md p-2 text-gray-400 hover:text-white hover:bg-gray-800 transition-all">
+    <Link onClick={onClick} title={titleCont} href={`/${href}`} className={`${className}`}>
       <div className="flex flex-row justify-start items-center gap-3">
         {children}
       </div>
