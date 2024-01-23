@@ -6,10 +6,10 @@ export const MenuItems = [
     titleCont: '',
   },
   {
-    title: 'Chat-GPT',
-    href: '/',
-    icon: 'YellowExclamationTriangleIcon',
-    titleCont: 'Feature Not Avalible',
+    title: 'Organizacja',
+    href: 'organizacja',
+    icon: 'AcademicCapIcon',
+    titleCont: '',
   },
   {
     title: 'ZS10-AI',

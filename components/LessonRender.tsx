@@ -1,24 +1,50 @@
-import { lessons } from "@/constants/Lessons"
+import { LessonRenderProps } from "@/types/LessonRenderProps";
+import { lessonTable } from "@/constants/lessonTable";
+import { Days } from "@/constants/Days";
 
-export default function LessonRender() {
+export default function LessonRender({ classCode }: LessonRenderProps) {
+  const convertedClassCode = convertClassCode(classCode)
+  const rows = [];
+  for (let lesson = 0; lesson < 4; lesson++) {
+    const cols = [];
+    for (let day = 0; day < 5; day++) {
+      if (lessonTable[convertedClassCode][day].plan[lesson]) {
+        cols.push(lessonTable[convertedClassCode][day].plan[lesson])
+      } else {
+        cols.push(undefined)
+      }
+    }
+    rows.push(cols);
+  }
+
   return (
-    <table className="odd:bg-neutral-400 even:bg-white font-mono">
-      <tbody>
+    <table className="font-mono table-auto">
+      <thead>
         <tr>
-          <td>NR lekcji</td>
-          <td>Sala</td>
-          <td>Nazwa</td>
+          {Days.map(day => (
+            <th>{day.dayName}</th>
+          ))}
         </tr>
-        {lessons.map((lesson) => (
-          <tr className="flex flex-row gap-5">
-            <td>{lesson.id}</td>
-
-            <td>{lesson.lessonRoom}</td>
-
-            <td>{lesson.lessonName}</td>
+      </thead>
+      <tbody>
+        {rows.map(row => (
+          <tr className="odd:bg-neutral-100">
+            {row.map(col => (
+              <td className="p-2">
+                {col?.name ? `${col.name} (${col.room})` : ''}
+              </td>
+            ))}
           </tr>
         ))}
       </tbody>
     </table>
-  )
+  );
+}
+
+function convertClassCode(code: string) {
+  const firstLetter = code.charAt(0);
+  const codeWithoutFirstLetter = code.slice(1)
+  const convertedCode = codeWithoutFirstLetter + firstLetter
+
+  return convertedCode
 }

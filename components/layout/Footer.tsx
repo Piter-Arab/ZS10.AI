@@ -2,11 +2,10 @@
 
 import { MenuItems } from '@/constants/MenuItems';
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-neutral-900" aria-labelledby="footer-heading">
+    <footer className="w-full bg-gray-900" aria-labelledby="footer-heading">
       <div className='mx-auto w-full lg:w-3/4 px-10 lg:px-0'>
         <h2 id="footer-heading" className="sr-only">
           Footer
@@ -35,7 +34,7 @@ export default function Footer() {
                     ))}
                   </ul>
                 </div>
-                <div className='mt-10 md:mt-0 text-sky-600'>
+                <div className='mt-10 md:mt-0 text-white'>
                   <ul role="list" className="space-y-4">
                     <li>
                       <Link target='_blank' href="https://www.google.com/maps/place/Technikum+nr+25+im.+Stanis%C5%82awa+Staszica/@52.2730529,20.9511969,17z/data=!3m1!4b1!4m6!3m5!1s0x471ecbc87c455251:0x7ab785ae5d33289!8m2!3d52.2730529!4d20.9537718!16s%2Fg%2F11hczznsz2?entry=ttu">
@@ -74,7 +73,7 @@ export default function Footer() {
             <p className="text-sm leading-5 text-gray-400">ZS10-AI to platforma edukacyjna, gdzie nowoczesność spotyka się z tradycją, a sztuczna inteligencja staje się kluczowym elementem technikum. Nasza strona to miejsce, gdzie technologia i edukacja łączą siły, aby kształtować przyszłych inżynierów i specjalistów.
             </p>
           </div>
-          <div className="mt-16 border-t border-sky-600 pt-8 sm:mt-20 lg:mt-12">
+          <div className="mt-16 border-t border-white pt-8 sm:mt-20 lg:mt-12">
             <p className="text-xs leading-5 text-gray-400">
               &copy; 2024 ZS10-AI. Zabrania się kopiowania oraz wykorzystywania w inny sposób całości lub części danych zawartych w serwisie internetowym ZS10-AI.
             </p>
