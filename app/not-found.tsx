@@ -1,0 +1,29 @@
+export default function NotFound() {
+  return (
+    <>
+      <div className="grid min-h-full w-full grid-cols-1 grid-rows-[1fr,auto,1fr] bg-black lg:grid-cols-[max(50%,36rem),1fr]">
+        <main className="mx-auto w-full max-w-7xl px-6 py-24 sm:py-32 lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:px-8">
+          <div className="max-w-lg">
+            <h1 className="mt-4 text-3xl font-bold tracking-tight text-white sm:text-8xl">404</h1>
+            <p className="mt-6 text-xl leading-7 text-gray-300">
+              Będą mi tu myszkować, łobuzy jedne
+            </p>
+            <div className="mt-2">
+              <a href="/" className="text-sm font-semibold leading-7 text-red-600">
+                <span aria-hidden="true">&larr;</span> Wracać na stronę główną!
+              </a>
+            </div>
+          </div>
+        </main>
+
+        <div className="hidden lg:relative lg:col-start-2 lg:row-start-1 lg:row-end-4 lg:block">
+          <img
+            src="/404.jpg"
+            alt=""
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+        </div>
+      </div>
+    </>
+  )
+}
