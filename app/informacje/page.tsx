@@ -1,4 +1,6 @@
 import Button from "@/components/Button"
+import { info } from "@/constants/info"
+import ArticleTile from "@/components/ArticleTile"
 
 export default function Page() {
   return (
@@ -20,6 +22,16 @@ export default function Page() {
           </svg>
           Facebook Samorządu Szkoły
         </Button>
+        <div className="flex flex-row flex-wrap gap-3">
+          {info.map(item => (
+            <ArticleTile
+              slug={item.slug}
+              imgUrl={item.imgUrl}
+              title={item.title}
+              excerpt={item.excerpt}
+            />
+          ))}
+        </div>
       </div>
     </div>
   )

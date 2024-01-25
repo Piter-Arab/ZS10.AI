@@ -5,21 +5,28 @@ export const MenuItems = [
     icon: 'HomeIcon',
   },
   {
-    title: 'Organizacja',
-    href: 'organizacja',
-    icon: 'AcademicCapIcon',
-  },
-  {
     title: 'ZS10-AI',
     href: 'zs10-ai',
     icon: 'CodeBracketIcon',
+    titleCont: 'Experimental Feature',
+    experimental: true,
   },
   {
-    title: 'Cluster-AI',
+    title: 'Cluster AI',
     href: 'cluster-ai',
     icon: 'ServerStackIcon',
     titleCont: 'Experimental Feature',
     experimental: true,
+  },
+  {
+    title: 'Blog',
+    href: 'blog',
+    icon: 'BookmarkIcon',
+  },
+  {
+    title: 'Organizacja',
+    href: 'organizacja',
+    icon: 'AcademicCapIcon',
   },
   {
     title: 'Informacje',
