@@ -3,7 +3,8 @@
 import React, { useState, useRef, useEffect } from "react";
 
 import { answers } from "@/constants/Answers";
-import { UserIcon, CpuChipIcon } from "@/components/icons/Icons";
+import { UserIcon, CpuChipIcon, InfoCircleIcon } from "@/components/icons/Icons";
+import Link from "next/link";
 
 interface Message {
   sender: string;
@@ -100,7 +101,10 @@ export default function Page() {
   return (
     <div className="flex flex-col justify-center items-center w-full">
       <div className="flex h-5/6 w-1/2 justify-between items-center flex-col">
-        <h2 className="text-5xl font-mono text-neutral-700">ZS10-AI</h2>
+        <Link href='blog/zs10-ai' className="flex flex-row">
+          <h2 className="text-5xl font-mono text-neutral-700">ZS10-AI</h2>
+          <InfoCircleIcon className="size-5" />
+        </Link>
         {renderChatLog()}
         <div className="w-full">
           <div className="w-full bg-neutral-100 rounded-lg border-2 my-3 border-neutral-200 flex flex-row items-center">

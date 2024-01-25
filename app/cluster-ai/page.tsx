@@ -1,11 +1,15 @@
 import { InfoCircleIcon } from "@/components/icons/Icons";
+import Link from "next/link";
 
 export default function Page() {
   return (
     <div className="flex flex-col justify-center items-center w-full">
       <div className="flex h-5/6 w-1/2 justify-between items-center flex-col">
         <div className="flex flex-row">
-          <h2 className="text-5xl font-mono text-neutral-700">Cluster AI</h2>
+          <Link href='blog/cluster-ai' className="flex flex-row">
+            <h2 className="text-5xl font-mono text-neutral-700">Cluster AI</h2>
+            <InfoCircleIcon className="size-5" />
+          </Link>
           <a href="/about">
             <InfoCircleIcon className="size-7 text-neutral-700" />
           </a>

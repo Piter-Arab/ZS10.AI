@@ -16,7 +16,8 @@ import {
   UserGroupIcon,
   YellowExclamationTriangleIcon,
   Zs10AITextLogo,
-  ServerStackIcon
+  ServerStackIcon,
+  BookmarkIcon
 } from '../icons/Icons';
 
 export default function Navbar() {
@@ -74,6 +75,9 @@ export default function Navbar() {
                   break;
                 case 'ServerStackIcon':
                   icon = <ServerStackIcon />;
+                  break;
+                case "BookmarkIcon":
+                  icon = <BookmarkIcon />;
                   break;
               }
 
