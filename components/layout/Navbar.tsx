@@ -15,7 +15,8 @@ import {
   InfoCircleIcon,
   UserGroupIcon,
   YellowExclamationTriangleIcon,
-  Zs10AITextLogo
+  Zs10AITextLogo,
+  ServerStackIcon
 } from '../icons/Icons';
 
 export default function Navbar() {
@@ -71,6 +72,9 @@ export default function Navbar() {
                 case 'AcademicCapIcon':
                   icon = <AcademicCapIcon />;
                   break;
+                case 'ServerStackIcon':
+                  icon = <ServerStackIcon />;
+                  break;
               }
 
               return (
@@ -90,6 +94,11 @@ export default function Navbar() {
                     >
                       {icon}
                       {item.title}
+                      {
+                        item.experimental == true
+                          ? <YellowExclamationTriangleIcon />
+                          : <></>
+                      }
                     </SidebarLink>
                   )
                   }
