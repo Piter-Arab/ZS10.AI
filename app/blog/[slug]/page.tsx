@@ -22,13 +22,13 @@ export default function page({ params }: ParamSlug) {
             Wróć
           </span>
         </Link>
-        <p className="text-lg font-semibold leading-7 text-indigo-500">{article.category}</p>
+        <p className="text-lg mt-8 font-semibold leading-7 text-indigo-500">{article.category}</p>
         <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">{article.title}</h1>
         <p className="mt-6 text-xl leading-8">
           {article.excerpt}
         </p>
         <div className="mt-10 max-w-2xl">
-          <p className="">{article.content}</p>
+          <p dangerouslySetInnerHTML={{ __html: article.content }} />
         </div>
       </div>
     </div>

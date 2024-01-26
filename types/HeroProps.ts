@@ -1,4 +1,5 @@
 export type HeroProps = {
-  title: String;
-  imgUrl: String;
+  title?: string;
+  content?: string;
+  monospace?: boolean;
 }
