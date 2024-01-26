@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function NotFound() {
   return (
     <>
-      <div className="bg-gradient-to-r from-gray-900 to-black to-45% grid min-h-full w-full grid-cols-1 grid-rows-[1fr,auto,1fr] lg:grid-cols-[max(50%,36rem),1fr]">
+      <div className="bg-gradient-to-r from-gray-900 to-gray-900 lg:to-black to-45% grid min-h-full w-full grid-cols-1 grid-rows-[1fr,auto,1fr] lg:grid-cols-[max(50%,36rem),1fr]">
         <main className="mx-auto w-full max-w-7xl px-6 py-24 sm:py-32 lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:px-8">
           <div className="max-w-lg">
             <h1 className="mt-4 text-3xl font-bold tracking-tight text-white sm:text-8xl">404</h1>
@@ -21,7 +21,7 @@ export default function NotFound() {
         <div className="hidden lg:relative lg:col-start-2 lg:row-start-1 lg:row-end-4 lg:block">
           <img
             src="/404.jpg"
-            alt=""
+            alt="Error: Babuszka strzela ci w morde z dubeltówy xD"
             className="absolute inset-0 h-full w-full object-cover"
           />
         </div>

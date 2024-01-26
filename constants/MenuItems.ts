@@ -1,7 +1,7 @@
 export const MenuItems = [
   {
-    title: 'Wstęp',
-    href: 'wstep',
+    title: 'Dom',
+    href: '/',
     icon: 'HomeIcon',
   },
   {
@@ -24,8 +24,8 @@ export const MenuItems = [
     icon: 'BookmarkIcon',
   },
   {
-    title: 'Organizacja',
-    href: 'organizacja',
+    title: 'Plan Lekcji',
+    href: 'plan-lekcji',
     icon: 'AcademicCapIcon',
   },
   {

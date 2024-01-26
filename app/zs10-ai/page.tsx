@@ -74,7 +74,7 @@ export default function Page() {
     return (
       <div
         ref={chatContainerRef}
-        className="w-full max-h-[700px] min-h-[700px] flex flex-col gap-3 justify-start overflow-x-scroll"
+        className="w-full max-h-[700px] h-[700px] flex flex-col gap-3 items-start overflow-x-scroll"
       >
         {chatLog.map((entry, index) => (
           <div
@@ -83,7 +83,7 @@ export default function Page() {
           >
             <div className="w-full flex flex-row items-center gap-2 text-sm text-neutral-700">
               <div className="rounded-full bg-gray-600 text-white p-1">
-                {entry.sender == 'Chatbot'
+                {entry.sender == 'ZS10-AI'
                   ? <CpuChipIcon className="size-5" />
                   : <UserIcon className="size-5" />
                 }
@@ -99,8 +99,8 @@ export default function Page() {
 
 
   return (
-    <div className="flex flex-col justify-center items-center w-full">
-      <div className="flex h-5/6 w-1/2 justify-between items-center flex-col">
+    <div className="flex flex-col justify-center items-center w-full p-3">
+      <div className="flex h-5/6 min-w-[50%] justify-between items-center flex-col">
         <Link href='blog/zs10-ai' className="flex flex-row">
           <h2 className="text-5xl font-mono text-neutral-700">ZS10-AI</h2>
           <InfoCircleIcon className="size-5" />
