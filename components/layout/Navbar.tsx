@@ -18,9 +18,9 @@ export default function Navbar() {
   return (
     <div className="fixed w-screen z-50">
       <Menu>
-        <div className="w-full flex justify-between items-center h-20 bg-gray-900/85 backdrop-blur-sm border-b border-white/20">
+        <div className="w-full flex justify-between items-center h-20 bg-gray-900/85 backdrop-blur-lg border-b border-white/20">
           <Menu.Button>
-            <svg className='size-9 text-gray-400 hover:text-white transition-all ml-8' aria-hidden="true" fill="none" strokeWidth={1.5} stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg className='focus:outline-0 focus:ring-0 size-9 text-gray-400 hover:text-white transition-all ml-8' aria-hidden="true" fill="none" strokeWidth={1.5} stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </Menu.Button>
