@@ -99,7 +99,7 @@ export default function Page() {
 
 
   return (
-    <div className="flex flex-col justify-center items-center w-full p-3">
+    <div className="flex flex-col justify-center items-center w-full p-3 mt-10">
       <div className="flex h-5/6 min-w-[50%] justify-between items-center flex-col">
         <Link href='blog/zs10-ai' className="flex flex-row">
           <h2 className="text-5xl font-mono text-neutral-700">ZS10-AI</h2>

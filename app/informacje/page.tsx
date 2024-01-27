@@ -5,7 +5,7 @@ import Hero from "@/components/Hero"
 
 export default function Page() {
   return (
-    <div className="w-full">
+    <div className="w-full mt-10">
       <Hero title="Informacje" />
       <div className="w-3/4 flex flex-col items-center mx-auto mt-16">
         <div>

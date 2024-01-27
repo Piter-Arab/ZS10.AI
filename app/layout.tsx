@@ -10,6 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'ZS10.AI',
   description: 'zs10.ai',
+  keywords: 'zs10ai'
 }
 
 export default function RootLayout({

@@ -4,7 +4,7 @@ import { info } from "@/constants/info"
 
 export default function page() {
   return (
-    <div className="w-full">
+    <div className="w-full mt-10">
       <Hero title="Blog" content="Lorem Ipsum placeholder teks" />
       <div className="w-full flex flex-col items-center">
         <div className="mt-12 flex flex-start flex-col">
