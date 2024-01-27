@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-gray-900`}>
         <Navbar />
         <div className="flex flex-row">
           {children}

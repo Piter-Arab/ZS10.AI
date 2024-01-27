@@ -128,8 +128,24 @@ export function BookmarkIcon({ className }: IconProps) {
 
 export function LockOpenIcon({ className }: IconProps) {
   return (
-    <svg className={`${className} size-6`} aria-hidden="true" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <path d="M13.5 10.5V6.75a4.5 4.5 0 1 1 9 0v3.75M3.75 21.75h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H3.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" stroke-linecap="round" stroke-linejoin="round"></path>
+    <svg className={`${className} size-6`} aria-hidden="true" fill="none" strokeWidth="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M13.5 10.5V6.75a4.5 4.5 0 1 1 9 0v3.75M3.75 21.75h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H3.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" strokeLinecap="round" strokeLinejoin="round"></path>
+    </svg>
+  );
+}
+
+export function ChevronUpDownIcon({ className }: IconProps) {
+  return (
+    <svg className={`${className} size-6`} aria-hidden="true" fill="none" strokeWidth={1.5} stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M8.25 15 12 18.75 15.75 15m-7.5-6L12 5.25 15.75 9" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+export function XMarkIcon({ className, onClick }: IconProps) {
+  return (
+    <svg onClick={onClick} className={`${className}`} aria-hidden="true" fill="none" strokeWidth={1.5} stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M6 18 18 6M6 6l12 12" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
 }

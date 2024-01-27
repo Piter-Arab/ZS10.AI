@@ -18,7 +18,7 @@ export default function LessonRender({ classCode }: LessonRenderProps) {
   }
 
   return (
-    <table className="font-mono table-auto">
+    <table className="font-mono table-auto text-gray-300">
       <thead>
         <tr>
           {Days.map(day => (
@@ -28,7 +28,7 @@ export default function LessonRender({ classCode }: LessonRenderProps) {
       </thead>
       <tbody>
         {rows.map(row => (
-          <tr className="odd:bg-neutral-100">
+          <tr className="odd:bg-gray-800/50">
             {row.map(col => (
               <td className="p-2">
                 {col?.name ? `${col.name} (${col.room})` : ''}

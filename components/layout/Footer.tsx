@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-gray-900" aria-labelledby="footer-heading">
+    <footer className="w-full mt-20 bg-gray-900 border-t border-white/20" aria-labelledby="footer-heading">
       <div className='mx-auto w-full lg:w-3/4 px-10 lg:px-0'>
         <h2 id="footer-heading" className="sr-only">
           Footer

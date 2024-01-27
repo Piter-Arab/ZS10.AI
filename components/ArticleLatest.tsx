@@ -1,13 +1,13 @@
-import { info } from "@/constants/info"
+import { blog } from "@/constants/blog"
 import ArticleTile from "./ArticleTile"
 
 export default function ArticleLatest() {
   return (
     <div className="w-full flex flex-col items-center justify-center p-3">
-      <h3 className="font-bold text-3xl">Nasz blog</h3>
-      <p className="text-neutral-800 text-wrap text-center">Zapraszamy do czytania!</p>
+      <h3 className="font-bold text-3xl text-gray-200">Nasz blog</h3>
+      <p className="text-gray-400 text-wrap text-center">Zapraszamy do czytania!</p>
       <div className="flex flex-col mt-3 md:flex-row items-center justify-center gap-3 w-full">
-        {info.map((item, index) => {
+        {blog.map((item, index) => {
           if (index <= 1) {
             return (
               <ArticleTile
