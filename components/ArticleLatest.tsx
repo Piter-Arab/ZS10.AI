@@ -1,5 +1,5 @@
 import { info } from "@/constants/info"
-import ArticleTile from "../ArticleTile"
+import ArticleTile from "./ArticleTile"
 
 export default function ArticleLatest() {
   return (

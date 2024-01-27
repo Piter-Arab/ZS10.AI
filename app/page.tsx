@@ -1,10 +1,14 @@
-import Hero from "@/components/Hero";
-import ArticleLatest from "@/components/layout/ArticleLatest";
+'use client'
+
+import ArticleLatest from "@/components/ArticleLatest";
+import FeatureSection from "@/components/single-use/FeatureSection";
+import MainHero from "@/components/single-use/MainHero";
 
 export default function Home() {
   return (
     <main className="w-full">
-      <Hero title="ZS10-AI" content="Witaj na platformie ZS10 AI, gdzie możesz lorem ipsum" />
+      <MainHero />
+      <FeatureSection />
       <ArticleLatest />
     </main>
   )

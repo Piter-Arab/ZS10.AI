@@ -2,7 +2,7 @@ import { HeroProps } from "@/types/HeroProps";
 
 export default function Hero({ title, content, monospace }: HeroProps) {
   return (
-    <div className="-z-10 relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
+    <div className="-z-10 -mt-10 relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <div
         className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
         aria-hidden="true"
@@ -27,7 +27,7 @@ export default function Hero({ title, content, monospace }: HeroProps) {
           }}
         />
       </div>
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-10">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className={`${monospace ? 'font-mono' : 'font-sans'} text-4xl font-bold tracking-tight text-white sm:text-6xl`}>{title}</h2>
           <p className="text-base text-neutral-200">{content}</p>

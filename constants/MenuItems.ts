@@ -1,41 +1,51 @@
+import {
+  CodeBracketIcon,
+  AcademicCapIcon,
+  HomeIcon,
+  InfoCircleIcon,
+  UserGroupIcon,
+  ServerStackIcon,
+  BookmarkIcon
+} from '../components/icons/Icons';
+
 export const MenuItems = [
   {
     title: 'Dom',
     href: '/',
-    icon: 'HomeIcon',
+    icon: HomeIcon,
   },
   {
     title: 'ZS10-AI',
     href: 'zs10-ai',
-    icon: 'CodeBracketIcon',
+    icon: CodeBracketIcon,
     titleCont: 'Experimental Feature',
     experimental: true,
   },
   {
     title: 'Cluster AI',
     href: 'cluster-ai',
-    icon: 'ServerStackIcon',
+    icon: ServerStackIcon,
     titleCont: 'Experimental Feature',
     experimental: true,
   },
   {
     title: 'Blog',
     href: 'blog',
-    icon: 'BookmarkIcon',
+    icon: BookmarkIcon,
   },
   {
     title: 'Plan Lekcji',
     href: 'plan-lekcji',
-    icon: 'AcademicCapIcon',
+    icon: AcademicCapIcon,
   },
   {
     title: 'Informacje',
     href: 'informacje',
-    icon: 'InfoCircleIcon',
+    icon: InfoCircleIcon,
   },
   {
     title: 'Autorzy',
     href: 'autorzy',
-    icon: 'UserGroupIcon',
+    icon: UserGroupIcon,
   },
 ]

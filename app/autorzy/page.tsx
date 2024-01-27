@@ -4,7 +4,7 @@ import Hero from "@/components/Hero"
 
 export default function Page() {
   return (
-    <div className="w-full">
+    <div className="w-full mt-10">
       <Hero title="Autorzy" content="Poznaj autorów tego projektu" />
       <div className="bg-white py-32 flex justify-center w-full">
         <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">

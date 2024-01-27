@@ -14,7 +14,7 @@ export default function page({ params }: ParamSlug) {
   }
 
   return (
-    <div className="bg-white px-6 py-32 lg:px-8 w-full">
+    <div className="bg-white px-6 py-32 lg:px-8 w-full mt-10">
       <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
         <Link href="/blog" className="text-sm text-neutral-500 mb-3">
           &larr;&nbsp;

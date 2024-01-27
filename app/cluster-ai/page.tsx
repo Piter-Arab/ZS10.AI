@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <div className="flex flex-col justify-center items-center w-full">
+    <div className="flex flex-col justify-center items-center w-full mt-10">
       <div className="flex h-5/6 w-1/2 justify-between items-center flex-col">
         <div className="flex flex-row">
           <Link href='blog/cluster-ai' className="flex flex-row">
