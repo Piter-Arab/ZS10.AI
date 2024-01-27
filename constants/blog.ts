@@ -1,4 +1,4 @@
-export const info = [
+export const blog = [
   {
     slug: 'autorzy',
     imgUrl: '',

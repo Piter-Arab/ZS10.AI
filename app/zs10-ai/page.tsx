@@ -79,9 +79,9 @@ export default function Page() {
         {chatLog.map((entry, index) => (
           <div
             key={index}
-            className='w-full flex flex-col bg-neutral-100 p-3 rounded-md'
+            className='w-full flex flex-col bg-gray-800/50 p-3 rounded-md'
           >
-            <div className="w-full flex flex-row items-center gap-2 text-sm text-neutral-700">
+            <div className="w-full flex flex-row items-center gap-2 text-sm text-gray-300">
               <div className="rounded-full bg-gray-600 text-white p-1">
                 {entry.sender == 'ZS10-AI'
                   ? <CpuChipIcon className="size-5" />
@@ -90,7 +90,7 @@ export default function Page() {
               </div>
               {entry.sender}
             </div>
-            <div dangerouslySetInnerHTML={{ __html: entry.msg }}></div>
+            <div className="text-gray-200" dangerouslySetInnerHTML={{ __html: entry.msg }}></div>
           </div>
         ))}
       </div>
@@ -100,19 +100,19 @@ export default function Page() {
 
   return (
     <div className="flex flex-col justify-center items-center w-full p-3 mt-10">
-      <div className="flex h-5/6 min-w-[50%] justify-between items-center flex-col">
+      <div className="flex h-5/6 min-w-[55%] justify-between items-center flex-col">
         <Link href='blog/zs10-ai' className="flex flex-row">
-          <h2 className="text-5xl font-mono text-neutral-700">ZS10-AI</h2>
-          <InfoCircleIcon className="size-5" />
+          <h2 className="text-5xl font-mono text-gray-300 mb-8">ZS10-AI</h2>
+          <InfoCircleIcon className="size-5 text-gray-300" />
         </Link>
         {renderChatLog()}
         <div className="w-full">
-          <div className="w-full bg-neutral-100 rounded-lg border-2 my-3 border-neutral-200 flex flex-row items-center">
+          <div className="w-full bg-gray-900 rounded-lg border my-3 border-white/20 flex flex-row items-center">
             <input
               onChange={handleUserInput}
               value={userInput}
               type="text"
-              className="w-full bg-transparent text-neutral-900 p-3 focus:outline-none"
+              className="w-full bg-transparent text-gray-300 p-3 focus:outline-none"
               placeholder="Napisz"
               onKeyDown={(e) => {
                 if (e.key === 'Enter') {

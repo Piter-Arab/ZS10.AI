@@ -1,6 +1,6 @@
 import ArticleTile from "@/components/ArticleTile"
 import Hero from "@/components/Hero"
-import { info } from "@/constants/info"
+import { blog } from "@/constants/blog"
 
 export default function page() {
   return (
@@ -8,11 +8,11 @@ export default function page() {
       <Hero title="Blog" content="Lorem Ipsum placeholder teks" />
       <div className="w-full flex flex-col items-center">
         <div className="mt-12 flex flex-start flex-col">
-          <h3 className="text-3xl font-bold">Blog</h3>
-          <p className="text-neutral-700">Witaj na naszym blogu.</p>
+          <h3 className="text-3xl font-bold text-gray-100">Blog</h3>
+          <p className="text-gray-400">Witaj na naszym blogu.</p>
         </div>
-        <div className="flex flex-row mt-8 justify-center flex-wrap p-3 gap-3 mx-auto">
-          {info.map((item, index) => (
+        <div className="flex md:flex-row mt-8 justify-center flex-col md:flex-wrap p-3 gap-3 mx-auto">
+          {blog.map((item, index) => (
             <ArticleTile
               key={index}
               slug={item.slug}

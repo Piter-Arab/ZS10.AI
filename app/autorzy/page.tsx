@@ -6,11 +6,11 @@ export default function Page() {
   return (
     <div className="w-full mt-10">
       <Hero title="Autorzy" content="Poznaj autorów tego projektu" />
-      <div className="bg-white py-32 flex justify-center w-full">
+      <div className="py-32 flex justify-center w-full">
         <div className="mx-auto max-w-7xl px-6 text-center lg:px-8">
           <div className="mx-auto max-w-2xl">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Poznaj nasz zespół</h2>
-            <p className="mt-4 text-lg leading-8 text-gray-600">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">Poznaj nasz zespół</h2>
+            <p className="mt-4 text-lg leading-8 text-gray-400">
               Jesteśmy dynamiczną grupą, która z pasją podchodzi do tego, co robimy.
             </p>
           </div>
@@ -21,8 +21,8 @@ export default function Page() {
             {Authors.map((person, index) => (
               <li key={index}>
                 <img className="mx-auto size-56 rounded-full" src={person.imageUrl} alt="" />
-                <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
-                <p className="text-sm leading-6 text-gray-600">{person.role}</p>
+                <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-gray-300">{person.name}</h3>
+                <p className="text-sm leading-6 text-gray-500">{person.role}</p>
                 <ul role="list" className="mt-6 flex justify-center gap-x-6">
                   <li>
                     <a href={person.xUrl} className="text-gray-400 hover:text-gray-500">
