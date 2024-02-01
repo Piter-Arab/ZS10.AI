@@ -162,7 +162,7 @@ export const answers: Answers = {
   "Cześć wszystkim!": "Cześć, ale niestety jestem sam :{",
   "Hi there!": "Hi, How can I help you?",
   "Hello!": "Hello, how can I help you?",
-  "Hey!": "Hey, how can I help you?"
+  "Hey!": "Hey, how can I help you?",
 "Classic Rock": "Fajnie też lubię",
   "Contemporary R&B": "Fajnie też lubię",
   "Gospel": "Fajnie też lubię",
