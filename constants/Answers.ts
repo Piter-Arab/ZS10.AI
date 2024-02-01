@@ -191,7 +191,7 @@ export const answers: Answers = {
   "Bollywood": "Fajnie też lubię",
   "Flamenco": "Fajnie też lubię",
   "Kizomba": "Fajnie też lubię",
-  "Punk Rock": "Fajnie też lubię",
+  
   "Hardcore Punk": "Fajnie też lubię",
   "Pop Punk": "Fajnie też lubię",
   "Post-punk": "Fajnie też lubię",
