@@ -5,7 +5,7 @@ import { Days } from "@/constants/Days";
 export default function LessonRender({ classCode }: LessonRenderProps) {
   const convertedClassCode = convertClassCode(classCode)
   const rows = [];
-  for (let lesson = 0; lesson < 4; lesson++) {
+  for (let lesson = 0; lesson < 12; lesson++) {
     const cols = [];
     for (let day = 0; day < 5; day++) {
       if (lessonTable[convertedClassCode][day].plan[lesson]) {
