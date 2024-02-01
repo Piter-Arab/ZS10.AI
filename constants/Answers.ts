@@ -200,7 +200,7 @@ export const answers: Answers = {
   "Indie Rock": "Fajnie też lubię",
   "Indie Folk": "Fajnie też lubię",
   "Dream Pop": "Fajnie też lubię",
-  "Shoegaze": "Fajnie też lubię"
+  "Shoegaze": "Fajnie też lubię",
   "Hard Rock": "Fajnie też lubię",
   "Punk Rock": "Fajnie też lubię",
   "Alternative Rock": "Fajnie też lubię",
