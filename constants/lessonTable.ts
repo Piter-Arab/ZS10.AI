@@ -144,56 +144,90 @@ export const lessonTable: LessonTable = {
       ],
     },
   ],
-  bp1: [
+  bp2: [
     {
       name: 'Poniedziałek',
       plan: [
         {
-          room: '124',
-          name: 'Chemia',
+          room: '',
+          name: '',
         },
         {
-          room: '112',
-          name: 'J. polski',
+          room: '40/19',
+          name: 'inf1/nie2',
         },
-        // Additional lessons for Monday
         {
-          room: '101',
+          room: '18',
           name: 'Matematyka',
         },
         {
-          room: '202',
-          name: 'Biologia',
+          room: '21',
+          name: 'Historia',
         },
         {
-          room: '303',
-          name: 'Wiedza o społeczeństwie',
+          room: '23/G',
+          name: 'nie1/WF',
+        },
+        {
+          room: '18',
+          name: 'Matematyka',
+        },
+        {
+          room: '21',
+          name: 'HIT',
+        },
+        {
+          room: '17',
+          name: 'Historia',
+        },
+        {
+          room: '17',
+          name: 'APL',
         },
       ],
     },
     {
       name: 'Wtorek',
       plan: [
-        // Additional lessons for Tuesday
         {
-          room: '401',
-          name: 'Fizyka',
+          room: '',
+          name: '',
         },
         {
-          room: '502',
-          name: 'J. Polski',
+          room: '19/',
+          name: 'joz1/',
         },
         {
-          room: 'Sala gimnastyczna',
-          name: 'W-F',
+          room: '37/19',
+          name: 'apl2/fiz1',
+        },
+        {
+          room: '37/40',
+          name: 'apl2/projop1',
+        },
+        {
+          room: '37/40',
+          name: 'apl1/projop2',
+        },
+        {
+          room: '37/44',
+          name: 'apl1/ang2',
+        },
+        {
+          room: '35',
+          name: 'podst. przed',
         },
         {
           room: '603',
           name: 'Informatyka',
         },
         {
-          room: '704',
-          name: 'Język angielski',
+          room: 'G/',
+          name: 'WF1/',
+        },
+        {
+          room: 'G/',
+          name: 'WF1/',
         },
       ],
     },
@@ -201,25 +235,40 @@ export const lessonTable: LessonTable = {
       name: 'Środa',
       plan: [
         {
-          room: '12',
-          name: 'Fizyka I',
+          room: '',
+          name: '',
         },
         {
-          room: '12',
-          name: 'Fizyka II',
+          room: '38/',
+          name: 'nie1/',
         },
         {
-          room: 'Sala gimnastyczna',
-          name: 'W-F',
+          room: '38/23',
+          name: 'ang2/nie1',
         },
         {
-          room: '776',
-          name: 'Programowanie',
+          room: '38/39',
+          name: 'joz1/bio2',
         },
-        // Additional lessons for Wednesday
         {
-          room: '805',
-          name: 'Język niemiecki',
+          room: '18',
+          name: 'Matematyka',
+        },
+        {
+          room: 'G/18',
+          name: 'WF2/ang1',
+        },
+        {
+          room: 'G/19',
+          name: 'WF1/fiz2',
+        },
+        {
+          room: '15',
+          name: 'religia',
+        },
+        {
+          room: '15',
+          name: 'religia',
         },
       ],
     },
@@ -227,50 +276,78 @@ export const lessonTable: LessonTable = {
       name: 'Czwartek',
       plan: [
         {
-          room: '701',
-          name: 'Wiedza o społeczeństwie',
+          room: '',
+          name: '',
         },
         {
-          room: '702',
-          name: 'J. polski',
+          room: '40/',
+          name: 'inf2',
         },
         {
-          room: 'Sala gimnastyczna',
-          name: 'W-F',
+          room: '21',
+          name: 'j. polski',
         },
         {
-          room: '803',
-          name: 'Chemia',
+          room: '37/41',
+          name: 'pdprlb1/bd2',
         },
         {
-          room: '804',
-          name: 'Historia',
+          room: '37/41',
+          name: 'OBIEKT1/bd2',
+        },
+        {
+          room: '25',
+          name: 'PDPR',
+        },
+        {
+          room: 'G/25',
+          name: 'WF2/bio1',
+        },
+        {
+          room: '25',
+          name: 'BD',
+        },
+        {
+          room: '25',
+          name: 'chem1/chem2',
         },
       ],
     },
     {
       name: 'Piątek',
       plan: [
-        // Additional lessons for Friday
+        
         {
-          room: '905',
-          name: 'Język angielski',
+          room: '28',
+          name: 'OBIEKT',
         },
         {
-          room: '906',
-          name: 'Matematyka',
+          room: '37/41',
+          name: 'obiekt2/bd1',
         },
         {
-          room: 'Sala gimnastyczna',
-          name: 'W-F',
+          room: '37/41',
+          name: 'pdprlb2/bd1',
         },
         {
-          room: '1007',
-          name: 'Historia sztuki',
+          room: '35',
+          name: 'geografia',
         },
         {
-          room: '1008',
-          name: 'Religia',
+          room: '35',
+          name: 'j. polski',
+        },
+        {
+          room: '35',
+          name: 'j. polski',
+        },
+        {
+          room: '35',
+          name: 'PROJOP',
+        },
+        {
+          room: '35',
+          name: 'GDW',
         },
       ],
     },
