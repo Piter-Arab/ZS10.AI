@@ -129,7 +129,7 @@ export const answers: Answers = {
   "Zupa ogórkowa": "Zupa przygotowywana z kiszonych ogórków, często z dodatkiem ziemniaków i kiełbasy.",
   "Kopytka": "Kluski ziemniaczane podawane z różnymi sosami, mięsem lub warzywami.",
   "Flaki": "Zupa z kawałkami podrobów, najczęściej podawana z bułką lub ziemniakami.",
-  "Chłodnik": "Zimna zupa kwasowa z dodatkiem śmietany, ogórków, rzodkiewki i kopru."
+  "Chłodnik": "Zimna zupa kwasowa z dodatkiem śmietany, ogórków, rzodkiewki i kopru.",
   "Pizza": "Placki cienko ciasta z różnymi nadzieniami, często pieczone w piecu opalanym drewnem.",
   "Pasta Carbonara": "Makaron z sosem carbonara, przygotowany z boczkiem, jajkami, parmezanem i pieprzem.",
   "Risotto": "Danie z ryżu gotowanego na bulionie, często z dodatkiem warzyw, sera lub owoców morza.",
@@ -237,7 +237,7 @@ export const answers: Answers = {
   "Blues Rock": "Fajnie też lubię",
   "Motown": "Fajnie też lubię",
   "Funk": "Fajnie też lubię",
-  "Neo-Soul": "Fajnie też lubię"
+  "Neo-Soul": "Fajnie też lubię",
 "witaj": "Cześć! Miło mi cię widzieć!",
 "pytanie": "Oczywiście, zapytaj śmiało!",
 "pogoda": "Aktualnie niestety nie potrafię dostarczać informacje o pogodzie",
