@@ -72,7 +72,7 @@ export const answers: Answers = {
   "Cobol": "Język programowania używany głównie w biznesie i systemach korporacyjnych.",
   "Fortran": "Język programowania stosowany w naukach ścisłych, inżynierii i obliczeniach naukowych.",
   "Lisp": "Język programowania znany z manipulacji list i wsparcia dla programowania.",
-  "Ada": "Język programowania stworzony dla zastosowań wysokoniebezpiecznych, szczególnie w obszarze systemów wbudowanych, lotniczych i obronnych."
+  "Ada": "Język programowania stworzony dla zastosowań wysokoniebezpiecznych, szczególnie w obszarze systemów wbudowanych, lotniczych i obronnych.",
   "Witajcie": "Witaj, jak ci pomóc?",
   "Siema": "Siema, jak ci pomóc?",
   "Halo": "Halo, jak ci mogę pomóc?",
