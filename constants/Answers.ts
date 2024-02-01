@@ -149,7 +149,7 @@ export const answers: Answers = {
   "Prosciutto e Melone": "Plastry szynki parmeńskiej podawane z kawałkami melona.",
   "Amatriciana": "Sos pomidorowy z boczkiem i cebulą, podawany z makaronem.",
   "Saltimbocca": "Cienkie plastry cielęcego mięsa obsmażane z szynką parmeńską i szałwią.",
-  "Cicchetti": "Małe przekąski weneckie, podobne do hiszpańskich tapas."
+  "Cicchetti": "Małe przekąski weneckie, podobne do hiszpańskich tapas.",
   "Cześć!": "Cześć, Jak ci mogę dzisiaj pomóc?",
   "Witaj!": "Witaj, Jak ci mogę dzisiaj pomóc?",
   "Dzień dobry!": "Dzień dobry, jak ci mogę dzisiaj pomóc?",
