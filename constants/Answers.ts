@@ -134,7 +134,7 @@ export const answers: Answers = {
   "Pasta Carbonara": "Makaron z sosem carbonara, przygotowany z boczkiem, jajkami, parmezanem i pieprzem.",
   "Risotto": "Danie z ryżu gotowanego na bulionie, często z dodatkiem warzyw, sera lub owoców morza.",
   "Lasagne": "Warstwowa potrawa z makaronu lasagne, sosu mięsnego, beszamelu i sera.",
-  "Tiramisu": "Deser warstwowy z biszkoptami nasączonymi kawą, kremem mascarpone i posypany kakao.",
+
   "Bruschetta": "Plasterki grzanego chleba posmarowane czosnkiem, pomidorami i bazylią.",
   "Minestrone": "Warzywna zupa z dodatkiem makaronu lub ryżu.",
   "Spaghetti Bolognese": "Makaron spaghetti podawany z sosem mięsno-pomidorowym z dodatkiem warzyw.",
