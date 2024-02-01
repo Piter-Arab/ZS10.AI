@@ -109,7 +109,7 @@ export const answers: Answers = {
   "Sauerbraten": "Niemieckie danie mięsne, marynowane i duszone, zazwyczaj podawane z sosem i kluskami ziemniaczanymi.",
   "Tandoori Chicken": "Indyjskie danie z kurczaka marynowanego w przyprawach i pieczonego w piecu tandoor.",
   "Mole Poblano": "Meksykański sos czekoladowo-pomidorowy, często podawany z kurczakiem.",
-  "Moussaka": "Potrawa grecka, warstwowa zapiekanka z bakłażanów, mięsa"
+  "Moussaka": "Potrawa grecka, warstwowa zapiekanka z bakłażanów, mięsa",
 "Pierogi": "Małe kluski z nadzieniem, mogą być słodkie (np. z serem i ziemniakami, truskawkami) lub słone (np. z mięsem, kapustą i grzybami).",
   "Bigos": "Tradycyjne danie mięsne, znane również jako \"kapuśniak\", składające się z kiszonej kapusty, różnych mięs (często kiełbasy, wieprzowiny i wołowiny), grzybów i przypraw.",
   "Żurek": "Zupa kwasowa przygotowywana na bazie zakwasu żytniego, podawana z jajkiem, kiełbasą, ziemniakami i białą kiełbasą.",
