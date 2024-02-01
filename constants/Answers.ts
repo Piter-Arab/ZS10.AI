@@ -185,7 +185,7 @@ export const answers: Answers = {
   "Folk Rock": "Fajnie też lubię",
   "Celtic Folk": "Fajnie też lubię",
   "World Folk": "Fajnie też lubię",
-  "Americana": "Fajnie też lubię",
+  
   "Afrobeat": "Fajnie też lubię",
   "Salsa": "Fajnie też lubię",
   "Bollywood": "Fajnie też lubię",
