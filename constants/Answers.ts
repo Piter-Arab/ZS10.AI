@@ -196,7 +196,7 @@ export const answers: Answers = {
   "Pop Punk": "Fajnie też lubię",
   "Post-punk": "Fajnie też lubię",
   "Punk Blues": "Fajnie też lubię",
-  "Indie Pop": "Fajnie też lubię",
+  
   "Indie Rock": "Fajnie też lubię",
   "Indie Folk": "Fajnie też lubię",
   "Dream Pop": "Fajnie też lubię",
