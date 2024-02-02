@@ -82,7 +82,7 @@ export const answers: Answers = {
   "Hi there": "Hi, How can I help you?",
   "Hello": "Hello, how can I help you?",
   "Hey": "Hey, how can I help you?",
-    "Paella": "Klasyczne danie hiszpańskie z ryżem, warzywami i często z owocami morza lub mięsem.",
+  "Paella": "Klasyczne danie hiszpańskie z ryżem, warzywami i często z owocami morza lub mięsem.",
   "Hamburger": "Placki mięsne, najczęściej z wołowiny, w bułce z różnymi dodatkami, takimi jak sałata, pomidor, ser, ketchup i majonez.",
   "Croissant": "Francuskie ciasto drożdżowe w kształcie półksiężyca, kruche i miękkie w środku.",
   "Curry": "Potrawa przygotowana z mięsa, warzyw lub ryb, gotowana z intensywnym sosem curry, popularna w kuchni indyjskiej i innych azjatyckich.",
@@ -110,7 +110,7 @@ export const answers: Answers = {
   "Tandoori Chicken": "Indyjskie danie z kurczaka marynowanego w przyprawach i pieczonego w piecu tandoor.",
   "Mole Poblano": "Meksykański sos czekoladowo-pomidorowy, często podawany z kurczakiem.",
   "Moussaka": "Potrawa grecka, warstwowa zapiekanka z bakłażanów, mięsa",
-"Pierogi": "Małe kluski z nadzieniem, mogą być słodkie (np. z serem i ziemniakami, truskawkami) lub słone (np. z mięsem, kapustą i grzybami).",
+  "Pierogi": "Małe kluski z nadzieniem, mogą być słodkie (np. z serem i ziemniakami, truskawkami) lub słone (np. z mięsem, kapustą i grzybami).",
   "Bigos": "Tradycyjne danie mięsne, znane również jako \"kapuśniak\", składające się z kiszonej kapusty, różnych mięs (często kiełbasy, wieprzowiny i wołowiny), grzybów i przypraw.",
   "Żurek": "Zupa kwasowa przygotowywana na bazie zakwasu żytniego, podawana z jajkiem, kiełbasą, ziemniakami i białą kiełbasą.",
   "Kotlet schabowy": "Schabowy panierowany i smażony, podawany z ziemniakami i surówką. Jedno z najbardziej popularnych dań mięsnych w Polsce.",
@@ -134,7 +134,6 @@ export const answers: Answers = {
   "Pasta Carbonara": "Makaron z sosem carbonara, przygotowany z boczkiem, jajkami, parmezanem i pieprzem.",
   "Risotto": "Danie z ryżu gotowanego na bulionie, często z dodatkiem warzyw, sera lub owoców morza.",
   "Lasagne": "Warstwowa potrawa z makaronu lasagne, sosu mięsnego, beszamelu i sera.",
-
   "Bruschetta": "Plasterki grzanego chleba posmarowane czosnkiem, pomidorami i bazylią.",
   "Minestrone": "Warzywna zupa z dodatkiem makaronu lub ryżu.",
   "Spaghetti Bolognese": "Makaron spaghetti podawany z sosem mięsno-pomidorowym z dodatkiem warzyw.",
@@ -163,7 +162,6 @@ export const answers: Answers = {
   "Hi there!": "Hi, How can I help you?",
   "Hello!": "Hello, how can I help you?",
   "Hey!": "Hey, how can I help you?",
-
   "Contemporary R&B": "Fajnie też lubię",
   "Gospel": "Fajnie też lubię",
   "Roots Reggae": "Fajnie też lubię",
@@ -185,18 +183,15 @@ export const answers: Answers = {
   "Folk Rock": "Fajnie też lubię",
   "Celtic Folk": "Fajnie też lubię",
   "World Folk": "Fajnie też lubię",
-  
   "Afrobeat": "Fajnie też lubię",
   "Salsa": "Fajnie też lubię",
   "Bollywood": "Fajnie też lubię",
   "Flamenco": "Fajnie też lubię",
   "Kizomba": "Fajnie też lubię",
-  
   "Hardcore Punk": "Fajnie też lubię",
   "Pop Punk": "Fajnie też lubię",
   "Post-punk": "Fajnie też lubię",
   "Punk Blues": "Fajnie też lubię",
-  
   "Indie Rock": "Fajnie też lubię",
   "Indie Folk": "Fajnie też lubię",
   "Dream Pop": "Fajnie też lubię",
