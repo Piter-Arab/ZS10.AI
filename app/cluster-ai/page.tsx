@@ -1,7 +1,7 @@
 import { InfoCircleIcon } from "@/components/icons/Icons";
 import Link from "next/link";
 
-export default function Page() {
+export default async function Page() {
   return (
     <div className="flex flex-col justify-center items-center w-full mt-10">
       <div className="flex h-5/6 w-1/2 justify-between items-center flex-col">
