@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.18",
+    "@modelfusion/vercel-ai": "^1.1.0",
+    "ai": "^2.2.33",
     "hamburger-react": "^2.5.0",
     "heroicons": "^2.1.1",
+    "modelfusion": "^0.135.1",
     "next": "^14.1.0",
     "nodejs": "^0.0.0",
     "ollama": "^0.4.5",

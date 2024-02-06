@@ -48,10 +48,4 @@ export const MenuItems = [
     href: 'autorzy',
     icon: UserGroupIcon,
   },
-  {
-    title: 'Test',
-    href: 'test',
-    icon: ServerStackIcon,
-    experimental: true,
-  }
 ]
