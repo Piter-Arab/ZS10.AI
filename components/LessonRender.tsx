@@ -18,26 +18,28 @@ export default function LessonRender({ classCode }: LessonRenderProps) {
   }
 
   return (
-    <table className="font-mono table-auto text-gray-300">
-      <thead>
-        <tr>
-          {Days.map(day => (
-            <th>{day.dayName}</th>
-          ))}
-        </tr>
-      </thead>
-      <tbody>
-        {rows.map(row => (
-          <tr className="odd:bg-gray-800/50">
-            {row.map(col => (
-              <td className="p-2">
-                {col?.name ? `${col.name} (${col.room})` : ''}
-              </td>
+    <div className="overflow-x-scroll overflow-y-hidden w-screen flex justify-start md:justify-center">
+      <table className="font-mono table-auto text-gray-300">
+        <thead>
+          <tr>
+            {Days.map(day => (
+              <th>{day.dayName}</th>
             ))}
           </tr>
-        ))}
-      </tbody>
-    </table>
+        </thead>
+        <tbody>
+          {rows.map(row => (
+            <tr className="odd:bg-gray-800/50">
+              {row.map(col => (
+                <td className="p-2">
+                  {col?.name ? `${col.name} (${col.room})` : ''}
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
   );
 }
 

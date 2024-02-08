@@ -11,7 +11,7 @@ export default function LessonInfo() {
   const [selectedClass, setSelectedClass] = useState(Classes[0])
 
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center box-border m-12">
       <div className='flex flex-row gap-5'>
         <div className="w-52">
           <Listbox value={selectedClass} onChange={setSelectedClass}>
