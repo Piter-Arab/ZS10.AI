@@ -1,4 +1,4 @@
-'''php
+'''bash
 <?php
 
 try {
